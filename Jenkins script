@@ -4,11 +4,6 @@ pipeline{
        maven 'Maven'
     }
      stages{
-     stage ('git clone'){
-     steps{
-        git 'https://github.com/Kanyashree8/jenkinsproject1.git'
-    }
-    }
      stage('compile'){
        steps{
            sh "mvn compile"
