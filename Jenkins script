@@ -6,7 +6,7 @@ pipeline{
      stages{
      stage ('git clone'){
      steps{
-        git '    '
+        git 'https://github.com/Kanyashree8/jenkinsproject1.git'
     }
     }
      stage('compile'){
